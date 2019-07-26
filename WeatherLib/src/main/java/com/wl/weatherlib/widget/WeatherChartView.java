@@ -213,7 +213,7 @@ public class WeatherChartView<T extends TempEntry> extends View {
         mDottedLinePaint.setStyle(Paint.Style.STROKE);
         mDottedLinePaint.setColor(mDottedLineColor);
         mDottedLinePaint.setStrokeWidth(mDottedLineSize);
-        PathEffect pathEffect = new DashPathEffect(new float[]{8, 8}, 0);
+        PathEffect pathEffect = new DashPathEffect(new float[]{8, 4}, 0);
         mDottedLinePaint.setPathEffect(pathEffect);
     }
 

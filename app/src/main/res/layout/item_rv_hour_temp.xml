@@ -15,7 +15,7 @@
         app:dotColor="#ffffff"
         app:dotRadius="2dp"
         app:dottedLineColor="@color/colorPrimaryDark"
-        app:dottedLineSize="1dp"
+        app:dottedLineSize="1px"
         app:foldLineColor="#666666"
         app:foldLineSize="2dp"
         app:middleLineColor="#000000"
