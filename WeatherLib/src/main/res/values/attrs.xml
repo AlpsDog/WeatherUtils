@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeatherChartView">
+        <attr name="DotModel" format="enum">
+            <enum name="circle" value="1" />
+            <enum name="ring" value="2" />
+        </attr>
+        <attr name="dotColor" format="color" />
+        <attr name="passDotColor" format="color" />
+        <attr name="dotRadius" format="dimension" />
+        <attr name="foldLineSize" format="dimension" />
+        <attr name="foldLineColor" format="color" />
+        <attr name="passFoldLineColor" format="color" />
+        <attr name="NormalTextColor" format="color" />
+        <attr name="NowTextColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textMarginBottom" format="dimension" />
+        <attr name="showMiddleLine" format="boolean" />
+        <attr name="middleLineColor" format="color" />
+        <attr name="middleLineSize" format="dimension" />
+        <attr name="showDottedLine" format="boolean" />
+        <attr name="dottedLineColor" format="color" />
+        <attr name="dottedLineSize" format="dimension" />
+    </declare-styleable>
+</resources>

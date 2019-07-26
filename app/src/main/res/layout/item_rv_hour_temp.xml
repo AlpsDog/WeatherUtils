@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.wl.weatherlib.widget.WeatherChartView
+        android:id="@+id/temp_wrv"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:DotModel="ring"
+        app:dotColor="#ffffff"
+        app:dotRadius="2dp"
+        app:dottedLineColor="@color/colorPrimaryDark"
+        app:dottedLineSize="1dp"
+        app:foldLineColor="#666666"
+        app:foldLineSize="2dp"
+        app:middleLineColor="#000000"
+        app:middleLineSize="4dp"
+        app:showDottedLine="true"
+        app:showMiddleLine="false"
+        app:NormalTextColor="@color/colorPrimary"
+        app:NowTextColor="#822F2F"
+        app:textMarginBottom="6dp"
+        app:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="小雨" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="15:00"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>
